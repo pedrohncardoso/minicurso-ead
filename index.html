@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minicurso · Conteúdos Multimodais</title>
+    <meta name="theme-color" content="#4f46e5">
+    
+    <!-- Fontes idênticas ao estilo desejado -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ícones SVG (estilo interface limpa) -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 17v4M17 19h4"/></symbol>
+        <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 9-14 9V3z"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></symbol>
+        <symbol id="i-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+        <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+    </svg>
+
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <a class="brand" href="#">
+                <span class="brand-mark">AI</span>
+                <span class="brand-text">IA na Educação</span>
+            </a>
+            <nav class="nav">
+                <a href="#inicio">Início</a>
+                <a href="#video">Vídeo</a>
+                <a href="#material">Material</a>
+                <a class="nav-cta" href="#avaliacao">Avaliação →</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        
+        <!-- CABEÇALHO -->
+        <section class="course-head" id="inicio">
+            <div class="container">
+                <nav class="crumbs">Trilha: Docência Digital na Era da IA <span>/</span> Produção de experiências</nav>
+                <h1>Conteúdos Multimodais: <em>teoria à prática</em></h1>
+                <p class="lead">Aprenda a planejar e combinar texto, imagem, áudio e vídeo de acordo com um objetivo de aprendizagem. Descubra como usar ferramentas como Canva, Audacity e IAs generativas para criar materiais incríveis.</p>
+                
+                <div class="course-meta">
+                    <div class="hero-author">
+                        <span class="avatar">PH</span>
+                        <div><span class="muted">Professor</span><strong>Pedro Henrique Nascimento Cardoso</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MATERIAL / CARDS -->
+        <section class="section" id="material">
+            <div class="container">
+                <div class="section-head">
+                    <div class="kicker"><svg class="i" style="width:16px;height:16px;margin-right:6px;vertical-align:-2px"><use href="#i-spark"/></svg> Planejamento</div>
+                    <h2>Antes de criar, estruture.</h2>
+                    <p class="lead">Para que o recurso digital funcione, precisamos definir claramente quem vai usá-lo e o que esperamos que seja aprendido.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="card">
+                        <div class="icon-box"><svg class="i"><use href="#i-users"/></svg></div>
+                        <h3>Público-Alvo</h3>
+                        <p>Professores, designers instrucionais e criadores de conteúdo educacional.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><svg class="i"><use href="#i-book"/></svg></div>
+                        <h3>Pré-requisitos</h3>
+                        <p>Navegação na internet e conhecimentos básicos de informática. Nenhuma experiência prévia em design exigida.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon-box"><svg class="i"><use href="#i-target"/></svg></div>
+                        <h3>Objetivos</h3>
+                        <p>Compreender a multimodalidade, combinar mídias estrategicamente e revisar materiais garantindo coerência.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VÍDEO -->
+        <section class="section alt" id="video">
+            <div class="container">
+                <div class="section-head">
+                    <div class="kicker">Vídeo-aula</div>
+                    <h2>A aula completa</h2>
+                    <p class="lead">Acompanhe o passo a passo de como transformar um conceito abstrato (ex: Lógica de Programação) em um material visual e auditivo rico.</p>
+                </div>
+
+                <div class="video-layout">
+                    <div class="video-main">
+                        <div class="video-frame">
+                            <!-- Substitua o LINK pelo link do seu vídeo do YouTube -->
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo Aula" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-notes">
+                            <span>* Assista até o final para entender a aplicação das ferramentas na prática.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROMPTS UTILIZADOS -->
+        <section class="section" id="prompts">
+            <div class="container">
+                <div class="section-head">
+                    <div class="kicker"><svg class="i" style="width:16px;height:16px;margin-right:6px;vertical-align:-2px"><use href="#i-spark"/></svg> Mão na massa</div>
+                    <h2>Comandos (Prompts) utilizados</h2>
+                    <p class="lead">Copie e cole o comando abaixo no ChatGPT, Claude ou Gemini para testar a geração do roteiro ensinado no vídeo.</p>
+                </div>
+
+                <div class="prompt-box">
+                    <div class="prompt-head">
+                        <span class="prompt-title">Pedido para a Inteligência Artificial</span>
+                    </div>
+                    <pre class="prompt-body">Sou professor e preciso ensinar o conceito de "O que é um algoritmo na computação" para alunos iniciantes que não sabem nada de programação.
+
+Quero criar um slide e gravar um áudio explicativo para eles. 
+
+Por favor, crie:
+1. Uma analogia muito simples comparando um algoritmo com uma receita de bolo.
+2. O texto deve ser curto (no máximo 3 tópicos curtos), ideal para leitura rápida em um slide.
+3. Sugira uma imagem simples para ilustrar esse slide no Canva.</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- AVALIAÇÃO (QUIZ INTERATIVO) -->
+        <section class="section" id="avaliacao">
+            <div class="container">
+                <div class="section-head center">
+                    <div class="kicker">Avaliação</div>
+                    <h2>O que você aprendeu?</h2>
+                    <p class="lead">Hora de testar seus conhecimentos. O questionário abaixo reage na mesma hora e te explica o porquê de cada resposta.</p>
+                </div>
+
+                <div class="quiz-wrapper" id="quiz-container">
+                    <div id="quiz-app">
+                        <div class="quiz-start-screen">
+                            <h3>Avaliação Interativa</h3>
+                            <p>São 10 questões rápidas sobre produção multimodal, ferramentas e princípios de design instrucional.</p>
+                            <button id="start-quiz-btn" class="btn-primary">Iniciar Teste</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REFERÊNCIAS -->
+        <section class="section alt references">
+            <div class="container">
+                <h3>Referências Bibliográficas</h3>
+                <ul>
+                    <li>MAYER, Richard E. <em>Multimedia Learning</em>. 3. ed. Cambridge University Press, 2020.</li>
+                    <li>ROJO, Roxane; MOURA, Eduardo (Orgs.). <em>Multiletramentos na escola</em>. São Paulo: Parábola Editorial, 2012.</li>
+                    <li>DIONÍSIO, Angela Paiva. <em>Gêneros Textuais e Multimodalidade</em>. Rio de Janeiro: Lucerna, 2006.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>Projeto da 1ª VA - IA na Educação (2026)</p>
+            <p>Desenvolvido por <strong>Pedro Henrique Nascimento Cardoso</strong></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
